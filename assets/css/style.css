@@ -49,6 +49,18 @@ h3 {
 	font-family: var(--secondary-font);
 }
 
+/* Services */
+
+#services .card-footer {
+	font-weight: bold;
+	color: var(--highlight-color);
+	background-color: transparent;
+}
+
+#services .card {
+	margin-bottom: 1.5rem;
+}
+
 /* grid visualisation CSS for testing */
 
 /* .container,
