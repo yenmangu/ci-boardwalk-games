@@ -27,20 +27,43 @@
 		<link rel="stylesheet"
 					href="assets/css/style.css">
 	</head>
-	<body>
-		<!-- Header -->
-		<header>Heading</header>
-		<!-- Main -->
+	<!-- Classes on body set to work with mt-auto on footer to ensure it remains at bottom of page -->
+	<body class="d-flex flex-column min-vh-100">
+		<!-- Navigation -->
+		<!-- Header with carousel -->
+		<header class="container">
+			<div class="row">
+				<div class="col-12 col-xl-6">Boardwalk games intro text section</div>
+				<div class="col-12 col-xl-6">Carousel</div>
+			</div>
+		</header>
+		<!-- Main element to hold key sections of the home page. It is not part of the grid structure. -->
 		<main>
 			<!-- Section -->
-			<section>
-				<h1> Heading </h1>
-				<p class="sub-heading-color">Text</p>
-				<i class="fa-solid fa-house"></i>
+			<section id="services"
+							 class="container">
+				<div class="row">
+					<div class="col-12">Services section heading</div>
+					<div class="col-12 col-md-6 col-xl-3">Service card</div>
+					<div class="col-12 col-md-6 col-xl-3">Service card</div>
+					<div class="col-12 col-md-6 col-xl-3">Service card</div>
+					<div class="col-12 col-md-6 col-xl-3">Service card</div>
+				</div>
 			</section>
 		</main>
-		<!-- Footer -->
-		<footer></footer>
+		<!-- Footer / contact section -->
+		<!-- mt-auto added to push footer to bottom of page -->
+		<footer class="mt-auto">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">Contact section heading</div>
+					<!-- Contact Info -->
+					<div class="col-12 col-md-6 col-xl-4">Contact info and social links</div>
+					<!-- Opening Times -->
+					<div class="col-12 col-md-6 col-xl-4">Opening times</div>
+				</div>
+			</div>
+		</footer>
 		<!-- Bootstrap script -->
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
 						integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
